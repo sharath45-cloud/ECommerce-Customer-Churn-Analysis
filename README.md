@@ -1,7 +1,7 @@
 # E-Commerce Customer Churn & Retention Analysis
 
 ## 📊 Live Interactive Dashboard
-👉 **[Click Here to View Live Power BI Dashboard](YOUR_POWER_BI_DASHBOARD_LINK_HERE)**
+👉 **[Click Here to View Live Power BI Dashboard](https://app.powerbi.com/links/c5mOOzyjII?ctid=56c1d497-700b-49cf-8f8d-3dd6b20d522f&pbi_source=linkShare)**
 
 ---
 
