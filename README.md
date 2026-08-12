@@ -126,7 +126,7 @@ GROUP BY churn;
 ### Setup Instructions
 
 1. Clone the Repository
-   git clone https://github.com/your-username/ecommerce-churn-analysis.git
+   git clone https://github.com/sharath45-cloud/ECommerce-Customer-Churn-Analysis
    cd ecommerce-churn-analysis
 
 2. Install Dependencies
