@@ -1,24 +1,20 @@
-# E-Commerce Customer Churn & Retention Analysis
 
-## 📊 Live Interactive Dashboard
-👉 **[Click Here to View Live Power BI Dashboard](https://app.powerbi.com/links/c5mOOzyjII?ctid=56c1d497-700b-49cf-8f8d-3dd6b20d522f&pbi_source=linkShare)**
+# 🛒 E-Commerce Customer Churn & Analytics Pipeline
+
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15.0-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green.style=for-the-badge)
+
+An end-to-end Data Engineering and Business Analytics pipeline designed to clean, transform, ingest, and analyze e-commerce customer behavior data to understand and mitigate customer churn.
 
 ---
 
-## 📝 Project Overview
-This project focuses on identifying the root causes of customer attrition (churn) for an e-commerce platform and providing data-driven solutions to improve customer retention.
+## 📌 Executive Summary
 
-## 🛠️ Tech Stack & Architecture
-* **Data Extraction & Cleaning:** Python (`Pandas`, `NumPy`) inside Jupyter Notebook.
-* **Database & Querying:** SQL (Structured queries for customer segmentation).
-* **Data Visualization:** Power BI (Premium Dark Theme Dashboard).
+Customer churn is a critical metric in the e-commerce sector. This project establishes an automated **ETL (Extract, Transform, Load)** pipeline that processes raw customer transaction and behavioral datasets, cleans missing/skewed data using median imputation, ingests structured data into a relational **PostgreSQL** database, and executes targeted **SQL Analytics** to uncover key churn drivers.
 
-## 💡 Key Business Insights
-* **Tenure Impact:** Customers with a tenure of >22 months exhibit a **0% churn rate**.
-* **Onboarding Risk:** High churn observed in the first 1-2 months of customer acquisition.
-* **Operational Friction:** Customer care complaints strongly correlate with increased churn.
+---
 
-## 🚀 Strategic Recommendations
-* **Enhanced Onboarding:** Implement targeted milestone rewards and welcome offers within the first two months to reduce early-stage churn.
-* **Priority Support:** Establish an expedited resolution pipeline for customers raising service complaints to mitigate operational friction.
-* **Payment Gateway Optimization:** Upgrade credit/debit card processing systems to decrease transaction failures, while incentivizing highly retained payment options like UPI.
+## 🏗️ Architecture & Pipeline Workflow
